@@ -5,10 +5,184 @@
         <h2 class="title">Valentine et Thomas</h2>
       </div>
     </div>
+    <div class="arrow-center">
+        <%= cl_image_tag("mariage/down-arrow-sketch.png") %>
+    </div>
   </div>
 </div>
 <div class="container">
   <div class="row">
-  Kikou
+    <ul class="nav nav-tabs nav-justified">
+      <li role="presentation"><a href="#déroulement">Déroulement</a></li>
+      <li role="presentation"><a href="#">Accès</a></li>
+      <li role="presentation"><a href="#">Se loger</a></li>
+      <li role="presentation"><a href="#">Activités</a></li>
+      <li role="presentation"><a href="#">Liste de mariage</a></li>
+      <li role="presentation"><a href="#">Nous contacter</a></li>
+    </ul>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 col-sm-offset-1 col-sm-5 text-center text-accueil">
+      <p>Bonjour et bienvenue !</p>
+      <p>Nous sommes très heureux de vous compter parmi nous le 2 septembre prochain à Wissant pour célebrer notre mariage.</p>
+      <p>Vous trouverez sur notre site toutes les informations dont vous aurez besoin pour cette belle journée :)</p>
+      <p>Valentine et Thomas</p>
+    </div>
+    <div class="col-xs-12 col-sm-6 profil-image">
+      <%= cl_image_tag("mariage/IMG_1043.jpg") %>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <div class="text-center" id="déroulement">
+      <h3>Déroulement de la journée</h3>
+    </div>
+  </div>
+  <div class="row arrow-center">
+    <%= cl_image_tag("mariage/down-arrow-sketch_1.png") %>
+  </div>
+  <div class="row">
+    <div class="text-center">
+      <h4>La célebration</h4>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 eglise">
+      <%= cl_image_tag("mariage/DSC_0722.jpg") %>
+    </div>
+    <div class="col-xs-12 col-sm-offset-1 col-sm-5 eglise-picto">
+      <table>
+        <tr>
+          <td><%= cl_image_tag("mariage/placeholder.png") %></td>
+          <td><p>A l'église St Nicolas de Wissant</p></td>
+        </tr>
+      </table>
+      <br>
+      <table>
+        <tr>
+          <td><%= cl_image_tag("mariage/clock-with-white-face.png") %></td>
+          <td>A 14h30</td>
+        </tr>
+      </table>
+      <br>
+      <table>
+        <tr>
+          <td><%= cl_image_tag("mariage/priest.png") %></td>
+          <td><p>Célébré par le Père Bizet</p></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <br>
+  <div class="row arrow-center">
+    <%= cl_image_tag("mariage/down-arrow-sketch_2.png") %>
+  </div>
+  <div class="row">
+    <div class="text-center">
+      <h4>Le cocktail</h4>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <div class="col-xs-12 col-sm-offset-1 col-sm-5 picto-sun-cloud">
+      <table>
+        <tr>
+          <td><p>Si</p></td>
+          <td><%= cl_image_tag("mariage/sunny.png") %></td>
+          <td><p>sur la plage !</p></td>
+        </tr>
+      </table>
+    </div>
+    <br>
+    <div class="col-xs-12 col-sm-offset-1 col-sm-5 picto">
+      <table>
+        <tr>
+          <td><%= cl_image_tag("mariage/placeholder.png") %></td>
+          <td><p>Au bar "La Plage" de Wissant</p></td>
+        </tr>
+      </table>
+      <br>
+      <table>
+        <tr>
+          <td><%= cl_image_tag("mariage/footprints.png") %></td>
+          <td><p>A 5mn à pied de l'église</p></td>
+        </tr>
+      </table>
+      <br>
+      <table>
+        <tr>
+          <td><%= cl_image_tag("mariage/clock-with-white-face.png") %></td>
+          <td><p>A 16h30</p></td>
+        </tr>
+      </table>
+      <br>
+      <table>
+        <tr>
+          <td><%= cl_image_tag("mariage/sandals.png") %></td>
+          <td><p>Avec des chaussures adaptées :)</p></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <br>
+  <br>
+  <div class="row">
+    <div class="col-xs-5 col-sm-5">
+      <hr>
+    </div>
+    <div class="col-xs-2 col-sm-2 text-center">
+      <h4>OU</h4>
+    </div>
+    <div class="col-xs-5 col-sm-5">
+      <hr>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 col-sm-offset-1 col-sm-5 picto-sun-cloud">
+      <table>
+        <tr>
+          <td><p>Si</p></td>
+          <td><%= cl_image_tag("mariage/cloud-computing_1.png") %></td>
+          <td><p>à la Magreville</p></td>
+        </tr>
+      </table>
+    </div>
+    <div class="col-xs-12 col-sm-offset-1 col-sm-5 picto">
+      <table>
+        <tr>
+          <td><%= cl_image_tag("mariage/placeholder.png") %></td>
+          <td><p>A la magreville, à Belle-brune</p></td>
+        </tr>
+      </table>
+      <br>
+      <table>
+        <tr>
+          <td><%= cl_image_tag("mariage/car.png") %></td>
+          <td><p>A 25mn en voiture</p></td>
+        </tr>
+      </table>
+      <br>
+      <table>
+        <tr>
+          <td><%= cl_image_tag("mariage/clock-with-white-face.png") %></td>
+          <td><p>A 17h30</p></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <br>
+  <div class="row arrow-center">
+    <%= cl_image_tag("mariage/down-arrow-sketch_3.png") %>
+  </div>
+  <div class="row">
+    <div class="text-center">
+      <h4>Le diner</h4>
+    </div>
   </div>
 </div>
+<div class="magreville parallax">
+<%= cl_image_tag("mariage/IMG_2841.jpg", :secure=>true) %>
+</div>
+
+

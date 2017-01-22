@@ -1,12 +1,9 @@
-/* -------------------------------------
- * CSS code specific to home page
- * (margin/padding adjustments)
- * ------------------------------------- */
+// banner
 .banner {
   color: white;
   text-align: center;
   height: 100vh;
-  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+
   background-size: cover !important;
   display: flex;
   align-items: center;
@@ -15,3 +12,75 @@
 }
 
 
+// mot accueil
+
+.text-accueil {
+  display: block;
+  margin-top: 5%;
+  margin-bottom: auto;
+}
+
+.profil-image {
+  img {
+    height:300px;
+    width: auto;
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
+  }
+}
+
+
+// deroulement de la journee
+.arrow-center {
+  img {
+    width: auto;
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
+  }
+}
+
+.eglise {
+  img {
+    width: 450px;
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
+  }
+}
+
+.eglise-picto {
+  display: block;
+  margin-top: 3%;
+  margin-bottom: auto;
+  img {
+    margin-right: 10px;
+  }
+}
+
+.picto-sun-cloud {
+  table {
+    margin-right:auto;
+    margin-left: auto;
+    margin-top: 20%;
+    margin-bottom: auto;
+  }
+  img {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+
+.picto {
+  img {
+    margin-right: 10px;
+  }
+}
+
+.magreville {
+  img {
+    width:100%;
+    height:auto;
+  }
+}
