@@ -5,12 +5,12 @@
         <h2 class="title">Valentine et Thomas</h2>
       </div>
     </div>
-    <div class="arrow-center">
-        <%= cl_image_tag("mariage/down-arrow-sketch.png") %>
+    <div id="introduction" class="arrow-center arrow-banner">
+        <a href="#introduction"><%= cl_image_tag("mariage/down-arrow-sketch.png") %></a>
     </div>
   </div>
 </div>
-<div class="banner-mobile hidden-sm hidden-lg hidden-md" style="background-image: url('https://res.cloudinary.com/dh6cexxkf/image/upload/v1485038323/mariage/Photo_fianc%CC%A7aille_1.png'); background-position: 50% 32%;">
+<div class="banner-mobile hidden-sm hidden-lg hidden-md" style="background-image: url('https://res.cloudinary.com/dh6cexxkf/image/upload/v1485038323/mariage/Photo_fianc%CC%A7aille_1.png'); background-position: 55% 100%;">
   <div class="container">
     <div class="row">
       <div class="col-md-10 text-center col-md-offset-1 pv-20">
@@ -38,6 +38,7 @@
       <p>Bonjour et bienvenue !</p>
       <p>Nous sommes très heureux de vous compter parmi nous le 2 septembre prochain à Wissant pour célébrer notre mariage.</p>
       <p>Vous trouverez sur notre site toutes les informations dont vous aurez besoin pour cette belle journée :)</p>
+      <p>A très vite !</p>
       <p>Valentine et Thomas</p>
     </div>
     <div class="col-xs-12 col-sm-6 profil-image">
@@ -49,7 +50,6 @@
     <div class="text-center" id="déroulement">
       <h3>Déroulement de la journée</h3>
     </div>
-  <hr>
   </div>
   <div class="row arrow-center">
     <%= cl_image_tag("mariage/down-arrow-sketch_1.png") %>
@@ -58,6 +58,7 @@
     <div class="text-center">
       <h4>La célebration</h4>
     </div>
+    <hr>
   </div>
   <br>
   <div class="row">
@@ -74,7 +75,7 @@
       <br>
       <table>
         <tr>
-          <td><%= cl_image_tag("mariage/clock-with-white-face.png") %></td>
+          <td><%= cl_image_tag("mariage/clock-circular-outline.png") %></td>
           <td>A 14h30</td>
         </tr>
       </table>
@@ -95,10 +96,11 @@
     <div class="text-center">
       <h4>Le cocktail</h4>
     </div>
+    <hr>
   </div>
   <br>
   <div class="row">
-    <div class="col-xs-12 col-sm-offset-1 col-sm-5 picto-sun-cloud">
+    <div class="col-xs-12 col-sm-offset-1 col-sm-5 picto-sun">
       <table>
         <tr>
           <td><p>Si</p></td>
@@ -125,7 +127,7 @@
       <br>
       <table>
         <tr>
-          <td><%= cl_image_tag("mariage/clock-with-white-face.png") %></td>
+          <td><%= cl_image_tag("mariage/clock-circular-outline.png") %></td>
           <td><p>A 16h30</p></td>
         </tr>
       </table>
@@ -152,7 +154,7 @@
     </div>
   </div>
   <div class="row">
-    <div class="col-xs-12 col-sm-offset-1 col-sm-5 picto-sun-cloud">
+    <div class="col-xs-12 col-sm-offset-1 col-sm-5 picto-cloud">
       <table>
         <tr>
           <td><p>Si</p></td>
@@ -178,7 +180,7 @@
       <br>
       <table>
         <tr>
-          <td><%= cl_image_tag("mariage/clock-with-white-face.png") %></td>
+          <td><%= cl_image_tag("mariage/clock-circular-outline.png") %></td>
           <td><p>A 17h30</p></td>
         </tr>
       </table>
@@ -192,6 +194,7 @@
     <div class="text-center">
       <h4>Le diner</h4>
     </div>
+  <hr>
   </div>
   <br>
   <div class="row">
@@ -208,7 +211,7 @@
       <br>
       <table>
         <tr>
-          <td><%= cl_image_tag("mariage/clock-with-white-face.png") %></td>
+          <td><%= cl_image_tag("mariage/clock-circular-outline.png") %></td>
           <td><p>A 19h30</p></td>
         </tr>
       </table>
@@ -239,15 +242,25 @@
   </div>
   <br>
   <div class="row">
-    <iframe src="https://www.google.com/maps/d/embed?mid=1qMs4YVvxPaK567Ea_WsN-fsKvGY" width="100%" height="480"></iframe>
+    <iframe src="https://www.google.com/maps/d/embed?mid=1qMs4YVvxPaK567Ea_WsN-fsKvGY" width="100%" height="400"></iframe>
   </div>
   <div class="row">
     <div class="text-center" id="seloger">
       <h3>Se loger</h3>
     </div>
   <hr>
-  <br><br><br><br><br><br><br>
   </div>
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 text-center logement">
+      <table>
+        <tr>
+          <td><%= cl_image_tag("mariage/person-lying-on-bed-inside-a-home.png") %></td>
+          <td><a href="#"><p>Télécharger la liste des logements</p></a></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <br>
   <div class="row">
     <div class="text-center" id="activités">
       <h3>Activités autour de Wissant</h3>
@@ -310,7 +323,7 @@
       <table>
         <tr>
           <td><%= cl_image_tag("mariage/gift.png") %></td>
-          <td><a href="#">Vous trouverez notre liste sur mille mercis</a></td>
+          <td><a href="#"><p>Vous trouverez notre liste sur mille mercis</p></a></td>
         </tr>
       </table>
     </div>

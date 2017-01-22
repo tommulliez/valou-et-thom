@@ -14,13 +14,14 @@
 .banner-mobile {
   color: white;
   text-align: center;
-  height: 100vh;
+  height: 70vh;
 
   background-size: cover !important;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 
 
 // mot accueil
@@ -42,9 +43,14 @@
   }
 }
 
-
+.arrow-banner {
+  position: absolute;
+  bottom: 5px;
+  left: 48%;
+}
 // deroulement de la journee
 .arrow-center {
+
   img {
     width: auto;
     display:block;
@@ -71,12 +77,25 @@
   }
 }
 
-.picto-sun-cloud {
+.picto-sun {
   table {
     margin-right:auto;
     margin-left: auto;
     margin-top: 20%;
-    margin-bottom: auto;
+    margin-bottom: 10%;
+  }
+  img {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+
+.picto-cloud {
+  table {
+    margin-right:auto;
+    margin-left: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
   }
   img {
     margin-right: 10px;
@@ -85,6 +104,7 @@
 }
 
 .picto {
+  margin-top:auto;
   img {
     margin-right: 10px;
   }
@@ -92,11 +112,12 @@
 
 .magreville {
   img {
-    width: 80%;
+    width: 100%;
     display:block;
     margin-left:auto;
     margin-right: auto;
     border-radius: 5px;
+    margin-top:5%;
   }
 }
 
@@ -146,6 +167,17 @@
   font-size: 13px;
   }
 
+.logement {
+  table {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  img {
+    margin-right: 10px;
+  }
+}
+
+
 .gift {
   table {
     margin-left: auto;
@@ -177,4 +209,8 @@
     margin-top: 20px;
   }
 }
+// background-color
+// html, body {
+//   background-color: #eaefff;
+// }
 
