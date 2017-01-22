@@ -11,6 +11,17 @@
   background-attachment: fixed;
 }
 
+.banner-mobile {
+  color: white;
+  text-align: center;
+  height: 100vh;
+
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 
 // mot accueil
 
