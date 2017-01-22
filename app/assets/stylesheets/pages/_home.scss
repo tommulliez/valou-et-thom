@@ -101,27 +101,69 @@
   margin-top: 10px;
 }
 
+.banner-end {
+  height: 300px;
+  background-size: cover !important;
+  color: white;
+  position: relative;
+  border-radius:5px;
+  margin-top:50px;
+}
+
 .card-description {
   position: absolute;
   bottom: 10px;
   left: 10px;
 }
+
+.banner-end-description {
+  position: absolute;
+  bottom: 120px;
+  right: 30%;
+}
+
+.banner-end-description-mobile {
+  position: absolute;
+  bottom: 120px;
+  left: 0px;
+}
+
 .card-description h2 {
   font-size: 24px;
 }
 .card-description p {
   font-size: 13px;
   }
-.card-link {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  width: 100%;
-  z-index:2;
-  background: black;
-  opacity: 0;
+
+.gift {
+  table {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  img {
+    margin-right: 10px;
+  }
 }
-.card-link:hover{
-  opacity: 0.1;
+.contact {
+  table {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  img {
+    margin-right: 10px;
+  }
 }
+
+.footer {
+  width:100%;
+  height:60px;
+  background-color: #e8eaef;
+  color: white;
+  margin-top:10px;
+  .center-vertical
+  {
+    margin-top: 20px;
+  }
+}
+
