@@ -12,11 +12,11 @@
 </div>
 <div class="container">
   <div class="row">
-    <ul class="nav nav-tabs nav-justified">
+    <ul class="nav nav-tabs nav-justified hidden-xs">
       <li role="presentation"><a href="#déroulement">Déroulement</a></li>
-      <li role="presentation"><a href="#">Accès</a></li>
-      <li role="presentation"><a href="#">Se loger</a></li>
-      <li role="presentation"><a href="#">Activités</a></li>
+      <li role="presentation"><a href="#accès">Accès</a></li>
+      <li role="presentation"><a href="#seloger">Se loger</a></li>
+      <li role="presentation"><a href="#activités">Activités</a></li>
       <li role="presentation"><a href="#">Liste de mariage</a></li>
       <li role="presentation"><a href="#">Nous contacter</a></li>
     </ul>
@@ -37,6 +37,7 @@
     <div class="text-center" id="déroulement">
       <h3>Déroulement de la journée</h3>
     </div>
+  <hr>
   </div>
   <div class="row arrow-center">
     <%= cl_image_tag("mariage/down-arrow-sketch_1.png") %>
@@ -48,7 +49,7 @@
   </div>
   <br>
   <div class="row">
-    <div class="col-xs-12 col-sm-6 eglise">
+    <div class="col-xs-12 col-sm-offset-1 col-sm-5 eglise">
       <%= cl_image_tag("mariage/DSC_0722.jpg") %>
     </div>
     <div class="col-xs-12 col-sm-offset-1 col-sm-5 eglise-picto">
@@ -180,9 +181,94 @@
       <h4>Le diner</h4>
     </div>
   </div>
-</div>
-<div class="magreville parallax">
-<%= cl_image_tag("mariage/IMG_2841.jpg", :secure=>true) %>
+  <br>
+  <div class="row">
+    <div class="col-xs-12 col-sm-offset-1 col-sm-5 magreville">
+      <%= cl_image_tag("mariage/IMG_2841.jpg", :secure=>true) %>
+    </div>
+    <div class="col-xs-12 col-sm-offset-1 col-sm-5 picto">
+      <table>
+        <tr>
+          <td><%= cl_image_tag("mariage/placeholder.png") %></td>
+          <td><p>A la magreville, à Belle-brune</p></td>
+        </tr>
+      </table>
+      <br>
+      <table>
+        <tr>
+          <td><%= cl_image_tag("mariage/clock-with-white-face.png") %></td>
+          <td><p>A 19h30</p></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <div class="text-center" id="accès">
+      <h3>Comment se rendre à Wissant ?</h3>
+    </div>
+  <hr>
+  <br><br><br><br><br><br><br>
+  </div>
+  <div class="row">
+    <div class="text-center" id="seloger">
+      <h3>Se loger</h3>
+    </div>
+  <hr>
+  <br><br><br><br><br><br><br>
+  </div>
+  <div class="row">
+    <div class="text-center" id="activités">
+      <h3>Activités autour de Wissant</h3>
+    </div>
+  <hr>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 col-sm-4">
+      <div class="card" style="background-image: url('http://res.cloudinary.com/dh6cexxkf/image/upload/v1485094835/mariage/capblancnez.jpg');">
+        <div class="card-description">
+          <h4>Balade au cap blanc nez</h4>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-4">
+      <div class="card" style="background-image: url('http://res.cloudinary.com/dh6cexxkf/image/upload/v1485095937/mariage/DSCN2231.jpg');">
+        <div class="card-description">
+          <h4>Session Kitesurf :)</h4>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-4">
+      <div class="card" style="background-image: url('http://res.cloudinary.com/dh6cexxkf/image/upload/v1485095873/mariage/DSC_1297.jpg');">
+        <div class="card-description">
+          <h4>Pêche à la crevette !</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12 col-sm-4">
+      <div class="card" style="background-image: url('http://res.cloudinary.com/dh6cexxkf/image/upload/v1485096148/mariage/DSC_0411.jpg');">
+        <div class="card-description">
+          <h4>Mölkky sur la digue</h4>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-4">
+      <div class="card" style="background-image: url('http://res.cloudinary.com/dh6cexxkf/image/upload/v1485096363/mariage/DSC_1178.jpg');">
+        <div class="card-description">
+          <h4>VTT dans les terres</h4>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-4">
+      <div class="card" style="background-image: url('http://res.cloudinary.com/dh6cexxkf/image/upload/v1485096607/mariage/DSC_0769.jpg');">
+        <div class="card-description">
+          <h4>Visite de la brasserie des 2 Caps</h4>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
 

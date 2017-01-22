@@ -27,6 +27,7 @@
     display:block;
     margin-left:auto;
     margin-right: auto;
+    border-radius: 5px;
   }
 }
 
@@ -43,16 +44,16 @@
 
 .eglise {
   img {
-    width: 450px;
+    width: 80%;
     display:block;
     margin-left:auto;
     margin-right: auto;
+    border-radius:5px;
   }
 }
 
 .eglise-picto {
   display: block;
-  margin-top: 3%;
   margin-bottom: auto;
   img {
     margin-right: 10px;
@@ -80,7 +81,47 @@
 
 .magreville {
   img {
-    width:100%;
-    height:auto;
+    width: 80%;
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
+    border-radius: 5px;
   }
+}
+
+// activite wissant
+.card {
+  height: 175px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-size: cover !important;
+  color: white;
+  position: relative;
+  border-radius:5px;
+  margin-bottom:10px;
+  margin-top: 10px;
+}
+
+.card-description {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+.card-description h2 {
+  font-size: 24px;
+}
+.card-description p {
+  font-size: 13px;
+  }
+.card-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  z-index:2;
+  background: black;
+  opacity: 0;
+}
+.card-link:hover{
+  opacity: 0.1;
 }
