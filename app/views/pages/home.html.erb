@@ -255,7 +255,7 @@
       <table>
         <tr>
           <td><%= cl_image_tag("mariage/person-lying-on-bed-inside-a-home.png") %></td>
-          <td><a href="#"><p>Télécharger la liste des logements</p></a></td>
+          <td><%= link_to "Télécharger la liste des logements", asset_path("FicheLogements.pdf"), target: "_blank" %></td>
         </tr>
       </table>
     </div>
