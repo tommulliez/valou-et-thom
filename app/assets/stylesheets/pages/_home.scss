@@ -111,13 +111,18 @@
 
 .magreville {
   img {
-    width: 100%;
+    width: 85%;
     display:block;
     margin-left:auto;
     margin-right: auto;
     border-radius: 5px;
     margin-top:5%;
   }
+}
+
+.information-diner {
+  margin-top: 20%;
+  margin-bottom:10%;
 }
 
 // activite wissant
@@ -192,9 +197,7 @@
     margin-right: auto;
     text-align: center;
   }
-  img {
-    margin-right: 10px;
-  }
+
 }
 
 .footer {

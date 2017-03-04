@@ -17,7 +17,7 @@
         <h2 class="title">Valentine et Thomas</h2>
       </div>
     </div>
-    <div class="arrow-center">
+    <div class="arrow-center hidden-xs">
         <%= cl_image_tag("mariage/down-arrow-sketch.png") %>
     </div>
   </div>
@@ -200,22 +200,24 @@
   <br>
   <div class="row">
     <div class="col-xs-12 col-sm-offset-1 col-sm-5 magreville">
-      <%= cl_image_tag("mariage/IMG_2841.jpg", :secure=>true) %>
+      <%= cl_image_tag("IMG_0533_xuck4n.jpg") %>
     </div>
     <div class="col-xs-12 col-sm-offset-1 col-sm-5 picto">
-      <table>
-        <tr>
-          <td><%= cl_image_tag("mariage/placeholder.png") %></td>
-          <td><a target="_blank" href="https://www.google.fr/maps/place/La+Magreville,+cocktail+et+r%C3%A9ception/@50.7237214,1.7809677,15z/data=!4m2!3m1!1s0x0:0x54d7d2c8b917124b?sa=X&ved=0ahUKEwipvqKgjtbRAhWD7BQKHU7BB5sQ_BIIcDAK"><p>A la Magreville, à Bellebrune</p></a></td>
-        </tr>
-      </table>
-      <br>
-      <table>
-        <tr>
-          <td><%= cl_image_tag("mariage/clock-circular-outline.png") %></td>
-          <td><p>A 19h30</p></td>
-        </tr>
-      </table>
+      <div class="information-diner">
+        <table>
+          <tr>
+            <td><%= cl_image_tag("mariage/placeholder.png") %></td>
+            <td><a target="_blank" href="https://www.google.fr/maps/place/La+Magreville,+cocktail+et+r%C3%A9ception/@50.7237214,1.7809677,15z/data=!4m2!3m1!1s0x0:0x54d7d2c8b917124b?sa=X&ved=0ahUKEwipvqKgjtbRAhWD7BQKHU7BB5sQ_BIIcDAK"><p>A la Magreville, à Bellebrune</p></a></td>
+          </tr>
+        </table>
+        <br>
+        <table>
+          <tr>
+            <td><%= cl_image_tag("mariage/clock-circular-outline.png") %></td>
+            <td><p>A 19h30</p></td>
+          </tr>
+        </table>
+      </div>
     </div>
   </div>
   <br>
@@ -340,8 +342,8 @@
       <hr>
       <table>
         <tr>
-          <td><%= cl_image_tag("mariage/contact_1.png") %></td>
-          <td><p>Pour nous envoyer des petits mots, c'est par ici : </p><a class="text-center" href="#">valentinethomasmulliez@gmail.com</a></td>
+          <td class="hidden-xs"><%= cl_image_tag("mariage/contact_1.png") %></td>
+          <td><p>Pour nous envoyer des petits mots, c'est par ici :</p><p><a class="text-center" href="#">valentinethomasmulliez@gmail.com</a></p></td>
         </tr>
       </table>
     </div>
